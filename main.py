@@ -7,7 +7,7 @@ driver.get('http://google.com')
 
 elem = driver.find_element_by_name('q')
 elem.click()
-elem.send_keys('کافه بازار')
+elem.send_keys('مایکت ')
 time.sleep(1)
 
 driver.close()
